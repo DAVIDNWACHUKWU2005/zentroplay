@@ -1,0 +1,25 @@
+:root {
+    --app-primary-color: #e2b13c;
+    --app-primary-dark-color: #fab005;
+    --app-secondary-color: #fff;
+    --app-third-color:#000;
+    --app-light-beige-color: #f8f7f6;
+    --app-banner-font-size: 48px;
+    --app-header-height: 80svh;
+    --app-navbar-height: 80px;
+    --app-banner-height: 300px;
+    --app-footer-height: 60px;
+    --app-footer-font-size: 16px;
+    --app-section-margin-top: 30px;
+    --app-section-margin-bottom: 80px;    
+}
+
+.container {
+    width: min(100% - 32px, 920px);
+    margin-inline: auto;
+}
+
+body{
+    background-color: #353935;
+    font-weight: 100;
+}
