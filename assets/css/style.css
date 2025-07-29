@@ -13,9 +13,21 @@
     --app-section-margin-top: 30px;
     --app-section-margin-bottom: 80px;    
 }
+.flex{
+    display: flex;
+}
+.flex-between{
+    justify-content:space-between;
+}
+.grid{
+    display:grid;
+}
+.gap-10{
+    gap:10px;
+}
 
 .container {
-    width: min(100% - 32px, 920px);
+    width: min(100% - 5%, 1080px);
     margin-inline: auto;
 }
 
@@ -30,4 +42,76 @@ body{
   display: inline-block;
   color: white;
 
+}
+/*------------*/
+/*hero Banner*/
+/*-----------*/
+.home{
+    background: #fff url(../img/Hero-banner.png)no-repeat center center;
+    height: var(--app-header-height);
+   background-color: rgba(0, 0, 0, 0.5); 
+   
+.hero-banner-content {
+    color: #fff;
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+.hero-banner {
+    height: calc(80svh - 80px);
+    text-align: center;
+
+    h3 {
+        font-size: 50px;
+        font-weight: 900;
+        color: var(--app-secondary-color);
+        line-height: 1;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--app-secondary-color);
+        letter-spacing: 0.6px;
+    }
+
+    .hero-banner-buttons {
+        margin-top: 30px;
+
+        a {
+            border-radius: 5px;
+            padding: 8px 25px;
+            font-size: 17px;
+            transition: all 0.25s ease-in-out;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .primary {
+            background-color: var(--app-primary-color);
+            color: var(--app-third-color);
+            display: inline-block;
+        }
+
+        .primary:hover {
+            background-color: var(--app-primary-dark-color);
+            transform: scale(1.1);
+        }    
+    }
+}
+
+.banner {
+    height: calc(300px - 50px);
+
+    h2 {
+        color: #fff;
+        font-size: var(--app-banner-font-size);
+        font-weight: 600;
+    }
 }
