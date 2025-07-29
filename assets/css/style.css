@@ -47,10 +47,10 @@ body{
 /*hero Banner*/
 /*-----------*/
 .home{
-    background: #fff url(../img/Hero-banner.png)no-repeat center center;
+    background: #fff url(../img/)no-repeat center center;
     height: var(--app-header-height);
    background-color: rgba(0, 0, 0, 0.5); 
-   
+}
 .hero-banner-content {
     color: #fff;
 
