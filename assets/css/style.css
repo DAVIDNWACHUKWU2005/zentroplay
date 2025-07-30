@@ -5,7 +5,7 @@
     --app-third-color:#000;
     --app-light-beige-color: #f8f7f6;
     --app-banner-font-size: 48px;
-    --app-header-height: 80svh;
+    --app-header-height: 90svh;
     --app-navbar-height: 80px;
     --app-banner-height: 300px;
     --app-footer-height: 60px;
@@ -16,6 +16,7 @@
 .flex{
     display: flex;
 }
+
 .flex-between{
     justify-content:space-between;
 }
@@ -36,7 +37,7 @@ body{
     font-weight: 100;
 }
 .Logo{
-     font-family: "Monoton", sans-serif;
+font-family: "Monoton", sans-serif;
   font-weight: 500;
   font-style: normal;
   display: inline-block;
@@ -47,8 +48,10 @@ body{
 /*hero Banner*/
 /*-----------*/
 .home{
-    background: #fff url(../img/)no-repeat center center;
+    background: #fff url(../img/Hero-banner.png)no-repeat  ;
     height: var(--app-header-height);
+    background-size: contain;
+    background-size:cover;
    background-color: rgba(0, 0, 0, 0.5); 
 }
 .hero-banner-content {
@@ -114,4 +117,38 @@ body{
         font-size: var(--app-banner-font-size);
         font-weight: 600;
     }
+}
+nav ul li a{
+    text-decoration: none;
+    color : #fff;
+}
+.navbar{
+    height: var(--app-banner-height);
+    padding-top:20px;
+}
+.sign-in-button {
+  background-color: #000; 
+  font-family: "Monoton", sans-serif;
+  color: #fff;        
+  border: 2px solid #fff; 
+  padding: 5px 15px;
+  font-size: 15px;
+  font-family: inherit;
+  border-radius: 9px;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+
+}
+.sign-in{
+    font-family: "Monoton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+   word-spacing: 5px;
+ 
+}
+
+.sign-in-button:hover {
+    background-color: #fff;
+    color: #000;
+   
+
 }
