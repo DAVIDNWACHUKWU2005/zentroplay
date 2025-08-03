@@ -113,15 +113,6 @@ font-family: "Monoton", sans-serif;
     }
 }
 
-.banner {
-    height: calc(300px - 50px);
-
-    h2 {
-        color: #fff;
-        font-size: var(--app-banner-font-size);
-        font-weight: 600;
-    }
-}
 nav ul li a{
     text-decoration: none;
     color : #fff;
@@ -151,7 +142,7 @@ nav ul li a{
 }
 
 .sign-in-button:hover {
-    background-color: #fff;
+    background-color: whitesmoke;
     color: #000;
    
 
@@ -179,14 +170,18 @@ h1{
     16px 15px;
     width: 500px;
     font-size: 20px;
-
+   border:none;
+}
+.email-input:focus{
+    outline: none;
+    border: none;
 }
 .sign-up-button{
     padding:16px 10px;
     width:150px;
     border-radius: 8px;
     font-size: 20px;
-    font-weight: 400;
+    
     background-color: #000;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
